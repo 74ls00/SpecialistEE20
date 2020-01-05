@@ -2072,6 +2072,74 @@ DIN A3, landscape with extra doc field</description>
 <text x="-16.51" y="-9.906" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-11.43" y="-0.635" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="DIL20">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="12.7" y1="2.921" x2="-12.7" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-2.921" x2="12.7" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="2.921" x2="12.7" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="2.921" x2="-12.7" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-2.921" x2="-12.7" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="1.016" x2="-12.7" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="-11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-13.081" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-9.779" y="-0.381" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOCKET-20">
+<description>&lt;b&gt;Dual In Line Socket&lt;/b&gt;</description>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="1.016" x2="-12.7" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-2.54" x2="12.7" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="-5.08" width="0.1524" layer="21"/>
+<pad name="1" x="-11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="-11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-6.477" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-12.954" y="-4.953" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIL16">
@@ -2133,6 +2201,36 @@ DIN A3, landscape with extra doc field</description>
 <pin name="22" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="23" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="24" x="7.62" y="15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DIL20">
+<wire x1="-5.08" y1="11.43" x2="-5.08" y2="-13.97" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-13.97" x2="5.08" y2="-13.97" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-13.97" x2="5.08" y2="11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="11.43" x2="2.54" y2="11.43" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="11.43" x2="-2.54" y2="11.43" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="11.43" x2="2.54" y2="11.43" width="0.254" layer="94" curve="180"/>
+<text x="-4.445" y="12.065" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.445" y="-16.51" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="11" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="13" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="14" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="15" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="16" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="17" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="18" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="19" x="7.62" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="20" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2308,6 +2406,68 @@ DIN A3, landscape with extra doc field</description>
 <connect gate="G$1" pin="22" pad="22"/>
 <connect gate="G$1" pin="23" pad="23"/>
 <connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIL20" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;Dual In Line / Socket&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIL20" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="SOCKET-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
@@ -2510,11 +2670,17 @@ DIN A3, landscape with extra doc field</description>
 <part name="DD47" library="74xx-eu" deviceset="74*95" device="N" value="К155ИР1"/>
 <part name="DD48" library="74xx-eu" deviceset="74*95" device="N" value="К155ИР1"/>
 <part name="FRAME2" library="frames" deviceset="DINA3_L" device=""/>
+<part name="DD54" library="ic-package" deviceset="DIL20" device="" value="К580ВА86"/>
+<part name="DD55" library="ic-package" deviceset="DIL20" device="" value="К580ИР82"/>
+<part name="DD56" library="ic-package" deviceset="DIL20" device="" value="К580ИР82"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="5.08" y="259.08" size="1.778" layer="98" rot="MR180">DD1,DD45 К555ЛН1 (К155ЛН1)
+<text x="5.08" y="259.08" size="1.778" layer="98" rot="MR180">Компьютер "Специалист"
+базовый вариант схемы
+
+DD1,DD45 К555ЛН1 (К155ЛН1)
 DD2,DD8 К555ИЕ7 (К155ИЕ7)
 DD3-DD5 К555ИЕ5 (К155ИЕ5)
 DD6,DD9 К555ЛЕ1 (К155ЛЕ1)
@@ -2534,13 +2700,37 @@ DD47,DD48 К555ИР1 (К155ИР1)
 DD49,DD50 К589АП16
 DD52,DD53 К573РФ2(РФ5)
 DD54 К580ВА86
-DD55,DD56 К580ИР82</text>
-<text x="48.26" y="259.08" size="1.778" layer="98" rot="MR180">DD20 x
+DD55,DD56 К580ИР82
 
+DA1 КР140УД608
+</text>
+<text x="58.42" y="259.08" size="1.778" layer="98" rot="MR180">Компьютер "Специалист Восточный экспресс"
+(в скобках старая нумерация)
 
+DD1,DD9(!) К555ЛН1
+DD2,DD8 К555ИЕ7
+DD3-DD5 К555ИЕ5
+DD6 К555ЛЕ1
+DD7 К555ЛА4
+DD10 К555ЛА2
+DD11,DD14(!) К555ЛА3
+DD12 К555ТМ2
+DD13(!) К155РЕ3
+DD15-DD18 К555КП2
+DD19(!) К555ЛП10
+DD20 К555ЛА8
+DD21-DD28 К565РУ5
+DD29(DD43) КР580ВМ80
+DD30(DD44) К580ВВ55
+DD31(DD46) К589ИР12
+DD32,DD33(DD47,DD48) К555ИР1
+DD34,DD35(DD49,DD50) К589АП16
+DD36(DD51), DD40(DD13) К555ИД4 
+DD37,DD38(DD52,DD53) К573РФ2
+DD39 К573РФ4
+-(DD54,DD55,DD56)
 
-
-
+DA1 КР544УД2
 </text>
 </plain>
 <instances>
@@ -2556,7 +2746,7 @@ DD55,DD56 К580ИР82</text>
 <plain>
 </plain>
 <instances>
-<instance part="DD1" gate="A" x="15.24" y="63.5"/>
+<instance part="DD1" gate="A" x="7.62" y="81.28"/>
 <instance part="DD2" gate="A" x="17.78" y="33.02"/>
 <instance part="DD8" gate="A" x="58.42" y="60.96"/>
 <instance part="DD3" gate="A" x="17.78" y="-2.54"/>
@@ -2579,8 +2769,8 @@ DD55,DD56 К580ИР82</text>
 <instance part="DD19" gate="A" x="266.7" y="76.2"/>
 <instance part="DD20" gate="A" x="269.24" y="53.34"/>
 <instance part="DD45" gate="A" x="254" y="20.32"/>
-<instance part="DD43" gate="G$1" x="215.9" y="-76.2"/>
-<instance part="DD44" gate="A" x="281.94" y="-78.74"/>
+<instance part="DD43" gate="G$1" x="226.06" y="-83.82"/>
+<instance part="DD44" gate="A" x="297.18" y="-81.28"/>
 <instance part="DD51" gate="A" x="302.26" y="30.48"/>
 <instance part="DD49" gate="G$1" x="307.34" y="-15.24"/>
 <instance part="DD46" gate="G$1" x="220.98" y="35.56"/>
@@ -2610,6 +2800,9 @@ DD55,DD56 К580ИР82</text>
 <instance part="DD42" gate="G$1" x="502.92" y="-78.74"/>
 <instance part="DD47" gate="A" x="474.98" y="-142.24"/>
 <instance part="DD48" gate="A" x="510.54" y="-144.78"/>
+<instance part="DD54" gate="G$1" x="193.04" y="-86.36"/>
+<instance part="DD55" gate="G$1" x="254" y="-63.5"/>
+<instance part="DD56" gate="G$1" x="254" y="-104.14"/>
 </instances>
 <busses>
 </busses>
