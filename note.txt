@@ -2,8 +2,14 @@
 
 
 
+видеовыход
+https://zx-pk.ru/threads/28706-spetsialist-quot-vostochnyj-ekspress-quot-sborka-i-naladka/page16.html
+
+
+
+
 DD28, DD31, DD33, DD30 под панельки для платы расширения.
-R47 и R48 лучше паять на 0,5 Вт.
+
 
 589 АП16 на 1533 АП6
 
