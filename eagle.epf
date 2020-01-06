@@ -7,6 +7,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.4.0/lbr/eagle/atmel.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.4.0/lbr/eagle/crystal.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.4.0/lbr/eagle/micro-intel.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.4.0/lbr/eagle/40-74 ic/74xx-eu.lbr"
@@ -25,7 +26,7 @@ Loc="332 293 931 692"
 State=1
 Number=2
 File="SpecialistEE20.brd"
-View="27.6841 -48.7682 123.634 40.0052"
+View="106.99 102.225 202.94 190.998"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -66,18 +67,12 @@ PadsSameType=0
 Layer=16
 
 [Win_2]
-Type="Control Panel"
-Loc="332 293 931 692"
-State=0
-Number=0
-
-[Win_3]
 Type="Schematic Editor"
 Loc="439 255 1038 664"
 State=1
 Number=1
 File="SpecialistEE20.sch"
-View="77.7029 156.062 231.796 255.123"
+View="-74.1735 -303.168 571.849 27.5168"
 WireWidths=" 0 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.3048 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -116,8 +111,14 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 77.7029 156.062 231.796 255.123 2: 361.585 169.762 529.6 246.668"
-Sheet=1
+Views=" 1: -35.9276 149.369 185.966 292.016 2: -74.1735 -303.168 571.849 27.5168 3: -63.8581 86.1549 488.286 441.105"
+Sheet=2
+
+[Win_3]
+Type="Control Panel"
+Loc="385 319 984 718"
+State=2
+Number=0
 
 [Desktop]
 Screen="1280 1024"
