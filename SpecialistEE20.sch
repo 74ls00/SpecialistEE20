@@ -20153,7 +20153,7 @@ DD113,DD114 ATMega8</text>
 <instance part="RD2" gate="G$1" x="86.36" y="248.92"/>
 </instances>
 <busses>
-<bus name="A[0..10],A'[0..15],G[1..19],MA[0..7]">
+<bus name="A[0..10],A'[11..15],G[1..19],MA[0..7]">
 <segment>
 <wire x1="121.92" y1="213.36" x2="48.26" y2="213.36" width="0.762" layer="92"/>
 <wire x1="48.26" y1="213.36" x2="48.26" y2="43.18" width="0.762" layer="92"/>
