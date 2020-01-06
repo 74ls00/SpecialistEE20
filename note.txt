@@ -1,6 +1,6 @@
 -5 вольт (проверить наличие до установки процессора!!) формируются на элементах DD20, R6, C3, D1, D2, C4 и стабилитроне D3.
 
-
+https://zx-pk.ru/threads/28706-spetsialist-quot-vostochnyj-ekspress-quot-sborka-i-naladka/page52.html
 
 видеовыход 15
 https://zx-pk.ru/threads/28706-spetsialist-quot-vostochnyj-ekspress-quot-sborka-i-naladka/page16.html
@@ -38,6 +38,22 @@ DD28, DD31, DD33, DD30 под панельки для платы расшире�
 
 рф2
 https://zx-pk.ru/threads/28706-spetsialist-quot-vostochnyj-ekspress-quot-sborka-i-naladka/page22.html
+
+
+
+
+http://blog.tynemouthsoftware.co.uk/2017/01/minstrel-zx80-clone-video-output.html
+https://zx-pk.ru/threads/28706-spetsialist-quot-vostochnyj-ekspress-quot-sborka-i-naladka/page22.html
+
+
+
+
+
+
+
+
+
+
 
 ----плата расширения
 
