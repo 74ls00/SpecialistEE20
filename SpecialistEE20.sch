@@ -20553,7 +20553,7 @@ Commonly found on the back of a computer for PS2 keyboard and mice. Schematic an
 <part name="DD55.1" library="ic-package" deviceset="DIL20" device="" value="К580ИР82"/>
 <part name="DD56.1" library="ic-package" deviceset="DIL20" device="" value="К580ИР82"/>
 <part name="DD38" library="memory" deviceset="2716" device="" value="К573РФ2"/>
-<part name="DD39" library="memory" deviceset="2764" device=""/>
+<part name="DD39" library="memory" deviceset="2764" device="" value="К573РФ4"/>
 <part name="DD34" library="74xx-eu" deviceset="74*245" device="N" technology="LS" value="К555АП6"/>
 <part name="DD19" library="74xx-eu" deviceset="74*365" device="N" technology="LS" value="К155ЛП10"/>
 <part name="FRAME3" library="frames" deviceset="DINA3_L" device=""/>
@@ -20600,7 +20600,6 @@ Commonly found on the back of a computer for PS2 keyboard and mice. Schematic an
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
 <part name="VD8" library="diode" deviceset="1N4004" device=""/>
 <part name="DD14" library="74xx-eu" deviceset="74*00" device="N" value="К155ЛА3"/>
-<part name="DD101" library="ic-package" deviceset="DIL16" device="" value="КР565РУ5"/>
 <part name="DD107" library="74xx-eu" deviceset="74*02" device="N" value="К155ЛЕ1"/>
 <part name="DD110" library="74xx-eu" deviceset="74*02" device="N" value="К155ЛЕ1"/>
 <part name="DD112" library="micro-intel" deviceset="8255A" device="" value="КР580ВВ55"/>
@@ -20683,6 +20682,7 @@ Commonly found on the back of a computer for PS2 keyboard and mice. Schematic an
 <part name="DD318.2" library="Разъёмы штырьковые 2.54мм" deviceset="PINHD-1X12" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="P+25" library="supply1" deviceset="+5V" device=""/>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23194,6 +23194,13 @@ DD113,DD114 ATMega8</text>
 15
 14
 13</text>
+<wire x1="25.4" y1="78.74" x2="25.4" y2="66.04" width="0.1524" layer="98"/>
+<wire x1="25.4" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="98"/>
+<wire x1="45.72" y1="66.04" x2="45.72" y2="78.74" width="0.1524" layer="98"/>
+<wire x1="45.72" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="98"/>
+<text x="27.94" y="68.58" size="1.778" layer="98">DD1
+использован
+DD21</text>
 </plain>
 <instances>
 <instance part="DD112" gate="A" x="246.38" y="96.52"/>
@@ -23203,7 +23210,6 @@ DD113,DD114 ATMega8</text>
 <instance part="DD109" gate="A" x="259.08" y="236.22"/>
 <instance part="DD114" gate="G$1" x="304.8" y="101.6"/>
 <instance part="DD113" gate="G$1" x="304.8" y="175.26"/>
-<instance part="DD101" gate="G$1" x="152.4" y="63.5"/>
 <instance part="DD110" gate="B" x="317.5" y="251.46"/>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="FRAME4" gate="G$2" x="287.02" y="0"/>
@@ -23257,19 +23263,22 @@ DD113,DD114 ATMega8</text>
 <instance part="DD110" gate="D" x="317.5" y="226.06"/>
 <instance part="DD110" gate="A" x="297.18" y="226.06"/>
 <instance part="DD110" gate="P" x="218.44" y="40.64"/>
-<instance part="GND30" gate="1" x="129.54" y="144.78"/>
+<instance part="GND30" gate="1" x="129.54" y="142.24"/>
 <instance part="P+25" gate="1" x="152.4" y="177.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="152.4" y="177.8" size="1.778" layer="96"/>
 </instance>
+<instance part="GND31" gate="1" x="167.64" y="147.32"/>
+<instance part="DD107" gate="A" x="180.34" y="137.16"/>
+<instance part="DD107" gate="B" x="154.94" y="134.62"/>
 </instances>
 <busses>
-<bus name="A[0..10],A'[11..15],D[0..7],G[1..19],MA[0..7],MD[0..7],VD[0..7],!RAS,!CAS,!WE,X-----X,K[1..27],U7,!U7,!WR,!RESIN,RES,!RD,B,G,R,B0,G0,R0,SND,P[1..24],R1">
+<bus name="A[0..10],A'[11..15],D[0..7],G[1..19],MA[0..7],MD[0..7],VD[0..7],!RAS,!CAS,!WE,X-----X,K[1..27],U7,!U7,!WR,!RESIN,RES,!RD,B,G,R,B0,G0,R0,SND,P[1..24],R1,CRG">
 <segment>
-<wire x1="205.74" y1="185.42" x2="205.74" y2="157.48" width="0.762" layer="92"/>
+<wire x1="205.74" y1="185.42" x2="205.74" y2="137.16" width="0.762" layer="92"/>
 <wire x1="205.74" y1="185.42" x2="160.02" y2="185.42" width="0.762" layer="92"/>
 <wire x1="160.02" y1="185.42" x2="160.02" y2="149.86" width="0.762" layer="92"/>
 <wire x1="160.02" y1="185.42" x2="134.62" y2="185.42" width="0.762" layer="92"/>
-<wire x1="134.62" y1="185.42" x2="134.62" y2="154.94" width="0.762" layer="92"/>
+<wire x1="134.62" y1="185.42" x2="134.62" y2="137.16" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="340.36" y1="208.28" x2="269.24" y2="208.28" width="0.762" layer="92"/>
@@ -23353,9 +23362,15 @@ DD113,DD114 ATMega8</text>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="129.54" y1="152.4" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="DD318.1" gate="G$1" pin="12"/>
-<wire x1="129.54" y1="149.86" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="149.86" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="149.86" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
 <junction x="129.54" y="149.86"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="OC"/>
+<wire x1="170.18" y1="154.94" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="167.64" y1="154.94" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -24141,6 +24156,13 @@ DD113,DD114 ATMega8</text>
 <wire x1="134.62" y1="177.8" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
 <label x="127" y="177.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="134.62" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="142.24" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="DD107" gate="A" pin="I0"/>
+<wire x1="167.64" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<label x="137.16" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="!CAS" class="0">
 <segment>
@@ -24228,12 +24250,22 @@ DD113,DD114 ATMega8</text>
 <wire x1="134.62" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
 <label x="127" y="172.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="1D"/>
+<wire x1="160.02" y1="177.8" x2="170.18" y2="177.8" width="0.1524" layer="91"/>
+<label x="162.56" y="177.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD0" class="0">
 <segment>
 <pinref part="DD318.1" gate="G$1" pin="4"/>
 <wire x1="134.62" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
 <label x="127" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="1Q"/>
+<wire x1="205.74" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
+<label x="198.12" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MD1" class="0">
@@ -24242,12 +24274,22 @@ DD113,DD114 ATMega8</text>
 <wire x1="134.62" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
 <label x="127" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="2D"/>
+<wire x1="160.02" y1="175.26" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
+<label x="162.56" y="175.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD1" class="0">
 <segment>
 <pinref part="DD318.1" gate="G$1" pin="6"/>
 <wire x1="134.62" y1="165.1" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
 <label x="127" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="2Q"/>
+<wire x1="205.74" y1="175.26" x2="195.58" y2="175.26" width="0.1524" layer="91"/>
+<label x="198.12" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MD2" class="0">
@@ -24256,12 +24298,22 @@ DD113,DD114 ATMega8</text>
 <wire x1="134.62" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
 <label x="127" y="162.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="3D"/>
+<wire x1="160.02" y1="172.72" x2="170.18" y2="172.72" width="0.1524" layer="91"/>
+<label x="162.56" y="172.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD2" class="0">
 <segment>
 <pinref part="DD318.1" gate="G$1" pin="8"/>
 <wire x1="134.62" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
 <label x="127" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="3Q"/>
+<wire x1="205.74" y1="172.72" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
+<label x="198.12" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MD3" class="0">
@@ -24270,12 +24322,22 @@ DD113,DD114 ATMega8</text>
 <wire x1="134.62" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <label x="127" y="157.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="4D"/>
+<wire x1="160.02" y1="170.18" x2="170.18" y2="170.18" width="0.1524" layer="91"/>
+<label x="162.56" y="170.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD3" class="0">
 <segment>
 <pinref part="DD318.1" gate="G$1" pin="10"/>
 <wire x1="134.62" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
 <label x="127" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="4Q"/>
+<wire x1="205.74" y1="170.18" x2="195.58" y2="170.18" width="0.1524" layer="91"/>
+<label x="198.12" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G19" class="0">
@@ -24284,12 +24346,27 @@ DD113,DD114 ATMega8</text>
 <wire x1="160.02" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
 <label x="152.4" y="149.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD107" gate="B" pin="I0"/>
+<wire x1="147.32" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="137.16" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="DD107" gate="B" pin="I1"/>
+<wire x1="144.78" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
+<junction x="144.78" y="137.16"/>
+<label x="137.16" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD4" class="0">
 <segment>
 <pinref part="DD318.2" gate="G$1" pin="10"/>
 <wire x1="160.02" y1="154.94" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
 <label x="152.4" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="5Q"/>
+<wire x1="205.74" y1="167.64" x2="195.58" y2="167.64" width="0.1524" layer="91"/>
+<label x="198.12" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MD4" class="0">
@@ -24298,12 +24375,22 @@ DD113,DD114 ATMega8</text>
 <wire x1="160.02" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 <label x="152.4" y="157.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="5D"/>
+<wire x1="160.02" y1="167.64" x2="170.18" y2="167.64" width="0.1524" layer="91"/>
+<label x="162.56" y="167.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD5" class="0">
 <segment>
 <pinref part="DD318.2" gate="G$1" pin="8"/>
 <wire x1="160.02" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="152.4" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="6Q"/>
+<wire x1="205.74" y1="165.1" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
+<label x="198.12" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MD5" class="0">
@@ -24312,12 +24399,22 @@ DD113,DD114 ATMega8</text>
 <wire x1="160.02" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 <label x="152.4" y="162.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="6D"/>
+<wire x1="160.02" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
+<label x="162.56" y="165.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD6" class="0">
 <segment>
 <pinref part="DD318.2" gate="G$1" pin="6"/>
 <wire x1="160.02" y1="165.1" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
 <label x="152.4" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="7Q"/>
+<wire x1="205.74" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
+<label x="198.12" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MD6" class="0">
@@ -24326,6 +24423,11 @@ DD113,DD114 ATMega8</text>
 <wire x1="160.02" y1="167.64" x2="144.78" y2="167.64" width="0.1524" layer="91"/>
 <label x="152.4" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="7D"/>
+<wire x1="160.02" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
+<label x="162.56" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VD7" class="0">
 <segment>
@@ -24333,12 +24435,41 @@ DD113,DD114 ATMega8</text>
 <wire x1="160.02" y1="170.18" x2="144.78" y2="170.18" width="0.1524" layer="91"/>
 <label x="152.4" y="170.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD105" gate="A" pin="8Q"/>
+<wire x1="205.74" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
+<label x="198.12" y="160.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MD7" class="0">
 <segment>
 <pinref part="DD318.2" gate="G$1" pin="3"/>
 <wire x1="160.02" y1="172.72" x2="144.78" y2="172.72" width="0.1524" layer="91"/>
 <label x="152.4" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD105" gate="A" pin="8D"/>
+<wire x1="160.02" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
+<label x="162.56" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CRG" class="0">
+<segment>
+<pinref part="DD105" gate="A" pin="ENC"/>
+<wire x1="160.02" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="162.56" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD107" gate="A" pin="O"/>
+<wire x1="205.74" y1="137.16" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
+<label x="198.12" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="DD107" gate="B" pin="O"/>
+<pinref part="DD107" gate="A" pin="I1"/>
+<wire x1="162.56" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
