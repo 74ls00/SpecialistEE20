@@ -21491,141 +21491,6 @@ Source: avr.lbr</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="589">
-<packages>
-<package name="DIL24-6">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 0.6 inch</description>
-<wire x1="-15.113" y1="-1.27" x2="-15.113" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="-15.113" y1="1.27" x2="-15.113" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
-<wire x1="15.113" y1="-6.604" x2="15.113" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-15.113" y1="6.604" x2="-15.113" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-15.113" y1="6.604" x2="15.113" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-15.113" y1="-6.604" x2="15.113" y2="-6.604" width="0.1524" layer="21"/>
-<pad name="1" x="-13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="-3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="-1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="17" x="3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="18" x="1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="19" x="-1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="20" x="-3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="21" x="-6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="22" x="-8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="23" x="-11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="24" x="-13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<text x="-15.621" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-12.065" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="589IR12">
-<pin name="STB" x="-15.24" y="-10.16" length="short" direction="in"/>
-<pin name="D1" x="-15.24" y="12.7" length="short" direction="in"/>
-<pin name="D2" x="-15.24" y="10.16" length="short" direction="in"/>
-<pin name="D4" x="-15.24" y="5.08" length="short" direction="in"/>
-<pin name="D8" x="-15.24" y="-5.08" length="short" direction="in"/>
-<pin name="INR" x="15.24" y="12.7" length="short" direction="out" function="dot" rot="R180"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-25.4" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-25.4" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-25.4" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="15.24" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-20.32" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-25.4" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<text x="-2.54" y="10.16" size="1.778" layer="94">MBR</text>
-<text x="-5.08" y="17.78" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
-<text x="-2.54" y="17.78" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="D5" x="-15.24" y="2.54" length="short" direction="in"/>
-<pin name="D3" x="-15.24" y="7.62" length="short" direction="in"/>
-<pin name="D6" x="-15.24" y="0" length="short" direction="in"/>
-<pin name="D7" x="-15.24" y="-2.54" length="short" direction="in"/>
-<pin name="CS1" x="-15.24" y="-12.7" length="short" direction="in" function="dot"/>
-<pin name="CS2" x="-17.78" y="-15.24" length="middle" direction="in"/>
-<pin name="MD" x="-15.24" y="-17.78" length="short" direction="in"/>
-<pin name="Q1" x="15.24" y="7.62" length="short" direction="out" rot="R180"/>
-<wire x1="12.7" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<pin name="Q2" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="Q3" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
-<pin name="Q4" x="15.24" y="0" length="short" direction="out" rot="R180"/>
-<pin name="Q5" x="15.24" y="-2.54" length="short" direction="out" rot="R180"/>
-<pin name="Q6" x="15.24" y="-5.08" length="short" direction="out" rot="R180"/>
-<pin name="Q7" x="15.24" y="-7.62" length="short" direction="out" rot="R180"/>
-<pin name="Q8" x="15.24" y="-10.16" length="short" direction="out" rot="R180"/>
-<wire x1="-5.08" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<pin name="CLR" x="-15.24" y="-22.86" length="short" direction="in" function="dot"/>
-</symbol>
-<symbol name="PWRN">
-<text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.905" y="-5.842" size="1.27" layer="95" rot="R90">GND</text>
-<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VCC</text>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="589IR12">
-<gates>
-<gate name="A" symbol="589IR12" x="0" y="7.62" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="0" y="-33.02" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="DIL24-6">
-<connects>
-<connect gate="A" pin="CLR" pad="14"/>
-<connect gate="A" pin="CS1" pad="1"/>
-<connect gate="A" pin="CS2" pad="13"/>
-<connect gate="A" pin="D1" pad="3"/>
-<connect gate="A" pin="D2" pad="5"/>
-<connect gate="A" pin="D3" pad="7"/>
-<connect gate="A" pin="D4" pad="9"/>
-<connect gate="A" pin="D5" pad="16"/>
-<connect gate="A" pin="D6" pad="18"/>
-<connect gate="A" pin="D7" pad="20"/>
-<connect gate="A" pin="D8" pad="22"/>
-<connect gate="A" pin="INR" pad="23"/>
-<connect gate="A" pin="MD" pad="2"/>
-<connect gate="A" pin="Q1" pad="4"/>
-<connect gate="A" pin="Q2" pad="6"/>
-<connect gate="A" pin="Q3" pad="8"/>
-<connect gate="A" pin="Q4" pad="10"/>
-<connect gate="A" pin="Q5" pad="15"/>
-<connect gate="A" pin="Q6" pad="17"/>
-<connect gate="A" pin="Q7" pad="19"/>
-<connect gate="A" pin="Q8" pad="21"/>
-<connect gate="A" pin="STB" pad="11"/>
-<connect gate="P" pin="GND" pad="12"/>
-<connect gate="P" pin="VCC" pad="24"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Speccy">
 <packages>
 <package name="MINI-DIN6">
@@ -23310,7 +23175,6 @@ Source: www.kingbright.com</description>
 <part name="RD1" library="rcl" deviceset="R-EU_" device="M1206" value="2k"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="RD2" library="rcl" deviceset="R-EU_" device="M1206" value="2k"/>
-<part name="DD31-" library="589" deviceset="589IR12" device="" value="К589ИР12"/>
 <part name="DD28" library="memory" deviceset="2164" device="" value="КР565РУ5"/>
 <part name="DD22" library="memory" deviceset="2164" device="" value="КР565РУ5"/>
 <part name="DD21" library="memory" deviceset="2164" device="" value="КР565РУ5"/>
@@ -23468,7 +23332,7 @@ DA1 КР544УД2
  160+160=320
 ТТЛ=1.1426 А
 +1323=2.4656 А</text>
-<text x="121.92" y="259.08" size="1.778" layer="98" rot="MR180">Новый
+<text x="119.38" y="259.08" size="1.778" layer="98" rot="MR180">Новый
 (для оригинала)
 
 DD1 К555ЛН1
@@ -23487,7 +23351,7 @@ DD21-DD28 КР565РУ5
 DD29 КР580ВМ80
 DD30  К580ВВ55
 DD31 К589ИР12
-DD32,DD33 К555ИР16(К155ИР1)*295(*95)
+DD32,DD33 К555ИР16(К155ИР1)
 DD34(DD34,DD35) К555АП6
 DD36, DD40 К555ИД4 
 DD37,DD38 К573РФ2
@@ -23496,7 +23360,7 @@ DD39 К573РФ4
 
 DA1 КР544УД2
 </text>
-<text x="121.92" y="180.34" size="1.778" layer="98" rot="MR180">Плата расширения
+<text x="119.38" y="182.88" size="1.778" layer="98" rot="MR180">Плата расширения
 
 DD101,DD104 КР565РУ5
 DD105,DD108 К555ИР22
@@ -23504,7 +23368,7 @@ DD106,DD109 К555ИР16
 DD107,DD110 К555ЛЕ1
 DD111,DD112 К580ВВ55
 DD113,DD114 ATMega8</text>
-<text x="172.72" y="259.08" size="1.778" layer="98" rot="MR180">* есть
+<text x="218.44" y="259.08" size="1.778" layer="98" rot="MR180">* есть
 
 
 
@@ -23517,6 +23381,32 @@ DD113,DD114 ATMega8</text>
 
 
 </text>
+<text x="160.02" y="259.08" size="1.778" layer="98" rot="MR180">Этот вариант
+
+DD1 К555ЛН1
+DD2,DD8 К555ИЕ7
+DD3-DD5 К555ИЕ5
+DD6,DD107,DD110  К555ЛЕ1
+DD7 К555ЛА4
+DD10 К555ЛА2
+DD11,DD14 К555ЛА3
+DD12 К555ТМ2
+DD15-DD18 К555КП2
+DD19 К555АП4
+DD20  К155ЛА8
+DD21-DD28,DD102-DD104 КР565РУ5
+DD29 КР580ВМ80
+DD30,DD112  К580ВВ55
+DD31,DD108 К555ИР22
+DD32,DD33,DD109 К555ИР16
+DD34 К555АП6
+DD36, DD40 К555ИД4 
+DD37,DD38 К573РФ2
+DD39 К573РФ4
+
+DD113,DD114 ATMega8
+
+DA1 КР544УД2</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -23703,7 +23593,6 @@ DD113,DD114 ATMega8</text>
 <attribute name="VALUE" x="76.2" y="251.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RD2" gate="G$1" x="86.36" y="248.92"/>
-<instance part="DD31-" gate="P" x="187.96" y="-264.16"/>
 <instance part="DD28" gate="A" x="353.06" y="-60.96"/>
 <instance part="DD22" gate="A" x="78.74" y="-60.96"/>
 <instance part="DD21" gate="A" x="33.02" y="-60.96"/>
