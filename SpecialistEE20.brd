@@ -2555,7 +2555,7 @@ design rules under a new name.</description>
 <element name="DD3011.1" library="Разъёмы штырьковые 2.54мм" package="1X20" value="" x="63.5" y="167.64" rot="R270"/>
 <element name="DD3011.2" library="Разъёмы штырьковые 2.54мм" package="1X20" value="" x="86.36" y="167.64" rot="R270"/>
 <element name="KB" library="Speccy" package="MINI-DIN6" value="MINI-DIN6" x="57.15" y="213.36"/>
-<element name="IC1" library="74xx-eu" package="DIL14" value="74393N" x="229.87" y="130.81" rot="R90"/>
+<element name="DD45" library="74xx-eu" package="DIL14" value="К555ИЕ19" x="179.07" y="207.01" rot="R90"/>
 <element name="R105" library="rcl" package="M0805" value="4k7" x="54.61" y="210.82" rot="MR0"/>
 <element name="R106" library="rcl" package="M0805" value="4k7" x="64.77" y="212.09" rot="MR0"/>
 <element name="DD318.1" library="Разъёмы штырьковые 2.54мм" package="1X12" value="" x="-66.04" y="120.65" rot="R270"/>
@@ -2661,7 +2661,7 @@ design rules under a new name.</description>
 <contactref element="DD102" pad="16"/>
 <contactref element="DD103" pad="16"/>
 <contactref element="DD104" pad="16"/>
-<contactref element="IC1" pad="7"/>
+<contactref element="DD45" pad="7"/>
 <contactref element="DD113" pad="21"/>
 <contactref element="DD113" pad="3"/>
 <contactref element="DD113" pad="5"/>
@@ -2772,7 +2772,7 @@ design rules under a new name.</description>
 <wire x1="232.73" y1="173.99" x2="218.44" y2="175.13" width="0" layer="19" extent="16-16"/>
 <wire x1="232.73" y1="186.69" x2="232.73" y2="173.99" width="0" layer="19" extent="16-16"/>
 <wire x1="236.22" y1="161.29" x2="232.73" y2="173.99" width="0" layer="19" extent="16-16"/>
-<wire x1="233.68" y1="138.43" x2="236.22" y2="161.29" width="0" layer="19" extent="1-1"/>
+<wire x1="182.88" y1="214.63" x2="236.22" y2="161.29" width="0" layer="19" extent="1-1"/>
 <wire x1="60.55" y1="204.86" x2="48.7426" y2="180.27" width="0" layer="19" extent="16-16"/>
 <wire x1="82.55" y1="213.36" x2="60.55" y2="204.86" width="0" layer="19" extent="1-1"/>
 <wire x1="12.7" y1="200.66" x2="35.56" y2="184.15" width="0" layer="19" extent="1-1"/>
@@ -2799,7 +2799,7 @@ design rules under a new name.</description>
 <contactref element="DD36" pad="16"/>
 <contactref element="DD112" pad="26"/>
 <contactref element="DD31-" pad="24"/>
-<contactref element="IC1" pad="14"/>
+<contactref element="DD45" pad="14"/>
 <contactref element="27512" pad="28"/>
 <wire x1="95.25" y1="165.1" x2="82.55" y2="156.21" width="0" layer="19" extent="1-1"/>
 <wire x1="93.98" y1="132.08" x2="82.55" y2="156.21" width="0" layer="19" extent="1-1"/>
@@ -2812,7 +2812,7 @@ design rules under a new name.</description>
 <wire x1="135.89" y1="194.31" x2="134.62" y2="194.31" width="0" layer="19" extent="1-1"/>
 <wire x1="77.47" y1="44.45" x2="62.23" y2="121.92" width="0" layer="19" extent="1-1"/>
 <wire x1="208.28" y1="116.84" x2="109.22" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="226.06" y1="123.19" x2="208.28" y2="116.84" width="0" layer="19" extent="1-1"/>
+<wire x1="175.26" y1="199.39" x2="208.28" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSS/GND">
 <contactref element="DD29" pad="2"/>
@@ -4141,9 +4141,9 @@ design rules under a new name.</description>
 <wire x1="154.94" y1="93.98" x2="-50.8" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
-<contactref element="IC1" pad="6"/>
-<contactref element="IC1" pad="13"/>
-<wire x1="226.06" y1="125.73" x2="233.68" y2="135.89" width="0" layer="19" extent="1-1"/>
+<contactref element="DD45" pad="6"/>
+<contactref element="DD45" pad="13"/>
+<wire x1="175.26" y1="201.93" x2="182.88" y2="212.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="KB" pad="2"/>
@@ -4272,27 +4272,43 @@ design rules under a new name.</description>
 </signal>
 <signal name="D0">
 <contactref element="DD3011.2" pad="7"/>
+<contactref element="DD112" pad="34"/>
+<wire x1="86.36" y1="176.53" x2="50.8" y2="184.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D1">
 <contactref element="DD3011.2" pad="8"/>
+<contactref element="DD112" pad="33"/>
+<wire x1="86.36" y1="173.99" x2="50.8" y2="181.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="DD3011.2" pad="9"/>
+<contactref element="DD112" pad="32"/>
+<wire x1="86.36" y1="171.45" x2="50.8" y2="179.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3">
 <contactref element="DD3011.2" pad="10"/>
+<contactref element="DD112" pad="31"/>
+<wire x1="86.36" y1="168.91" x2="50.8" y2="176.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D4">
 <contactref element="DD3011.2" pad="11"/>
+<contactref element="DD112" pad="30"/>
+<wire x1="50.8" y1="173.99" x2="86.36" y2="166.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D5">
 <contactref element="DD3011.2" pad="12"/>
+<contactref element="DD112" pad="29"/>
+<wire x1="50.8" y1="171.45" x2="86.36" y2="163.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D6">
 <contactref element="DD3011.2" pad="13"/>
+<contactref element="DD112" pad="28"/>
+<wire x1="50.8" y1="168.91" x2="86.36" y2="161.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D7">
 <contactref element="DD3011.2" pad="14"/>
+<contactref element="DD112" pad="27"/>
+<wire x1="50.8" y1="166.37" x2="86.36" y2="158.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="K27">
 <contactref element="DD3011.1" pad="18"/>
@@ -4645,6 +4661,29 @@ design rules under a new name.</description>
 </signal>
 <signal name="!U6">
 <contactref element="DD112" pad="6"/>
+</signal>
+<signal name="N$30">
+<contactref element="DD45" pad="3"/>
+</signal>
+<signal name="N$47">
+<contactref element="DD45" pad="4"/>
+</signal>
+<signal name="N$61">
+<contactref element="DD45" pad="5"/>
+</signal>
+<signal name="N$62">
+<contactref element="DD45" pad="11"/>
+</signal>
+<signal name="N$63">
+<contactref element="DD45" pad="10"/>
+</signal>
+<signal name="N$64">
+<contactref element="DD45" pad="1"/>
+</signal>
+<signal name="N$65">
+<contactref element="DD45" pad="2"/>
+<contactref element="DD45" pad="12"/>
+<wire x1="175.26" y1="204.47" x2="182.88" y2="201.93" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
