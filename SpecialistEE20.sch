@@ -23473,14 +23473,14 @@ DD33</text>
 </instance>
 <instance part="GND32" gate="1" x="429.26" y="208.28"/>
 <instance part="GND41" gate="1" x="187.96" y="132.08" rot="R270"/>
-<instance part="DD14" gate="A" x="259.08" y="101.6"/>
+<instance part="DD14" gate="A" x="264.16" y="101.6"/>
 <instance part="DD19'" gate="A" x="421.64" y="177.8"/>
 <instance part="DD19'" gate="B" x="421.64" y="152.4"/>
 <instance part="GND30" gate="1" x="403.86" y="170.18" rot="R270"/>
 <instance part="RD3" gate="G$1" x="406.4" y="134.62" rot="R90"/>
 </instances>
 <busses>
-<bus name="A[0..15],A'[11..15],D[0..7],F[1..2],G[1..19],MA[0..7],MD[0..7],VD[0..11],!RAS,!CAS,CLK,!WE,!WR,X-----X,K[1..27],U7,!,U[6..7],!RESIN,RES,RES80,RD,!RD,B,G,R,B0,G0,R0,SND,VID,LED,P[1..24],R[1..2],CRG,SH,Q3">
+<bus name="A[0..15],A'[11..15],D[0..7],F[1..2],G[1..19],!G19A,MA[0..7],MD[0..7],VD[0..11],!RAS,!CAS,CLK,!WE,!WR,X-----X,K[1..27],U7,!,U[6..7],!RESIN,RES,RES80,RD,!RD,SNY,B,G,R,B0,G0,R0,SND,VID,LED,P[1..24],R[1..2],CRG,SH,Q3">
 <segment>
 <wire x1="180.34" y1="198.12" x2="180.34" y2="43.18" width="0.762" layer="92"/>
 <wire x1="139.7" y1="198.12" x2="180.34" y2="198.12" width="0.762" layer="92"/>
@@ -23494,7 +23494,7 @@ DD33</text>
 <wire x1="210.82" y1="198.12" x2="241.3" y2="198.12" width="0.762" layer="92"/>
 <wire x1="210.82" y1="198.12" x2="210.82" y2="231.14" width="0.762" layer="92"/>
 <wire x1="241.3" y1="198.12" x2="241.3" y2="167.64" width="0.762" layer="92"/>
-<wire x1="241.3" y1="167.64" x2="241.3" y2="104.14" width="0.762" layer="92"/>
+<wire x1="241.3" y1="167.64" x2="241.3" y2="96.52" width="0.762" layer="92"/>
 <wire x1="241.3" y1="198.12" x2="241.3" y2="254" width="0.762" layer="92"/>
 <wire x1="294.64" y1="254" x2="294.64" y2="187.96" width="0.762" layer="92"/>
 <wire x1="294.64" y1="254" x2="241.3" y2="254" width="0.762" layer="92"/>
@@ -23504,6 +23504,8 @@ DD33</text>
 <wire x1="378.46" y1="182.88" x2="378.46" y2="55.88" width="0.762" layer="92"/>
 <wire x1="241.3" y1="167.64" x2="284.48" y2="167.64" width="0.762" layer="92"/>
 <wire x1="284.48" y1="167.64" x2="284.48" y2="142.24" width="0.762" layer="92"/>
+<wire x1="139.7" y1="20.32" x2="134.62" y2="20.32" width="0.762" layer="92"/>
+<wire x1="134.62" y1="20.32" x2="134.62" y2="86.36" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="459.74" y1="236.22" x2="434.34" y2="236.22" width="0.762" layer="92"/>
@@ -24559,14 +24561,6 @@ DD33</text>
 <junction x="81.28" y="40.64"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="DD12" gate="B" pin="D"/>
-<wire x1="91.44" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="73.66" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="DD7" gate="A" pin="O"/>
@@ -24578,7 +24572,7 @@ DD33</text>
 <segment>
 <pinref part="DD12" gate="B" pin="!Q"/>
 <wire x1="139.7" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.778" layer="95"/>
+<label x="116.84" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="DD15" gate="A" pin="B"/>
@@ -25118,11 +25112,12 @@ DD33</text>
 <label x="287.02" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="!G19B" class="0">
 <segment>
 <pinref part="DD107" gate="B" pin="O"/>
 <pinref part="DD107" gate="A" pin="I1"/>
 <wire x1="269.24" y1="203.2" x2="271.78" y2="203.2" width="0.1524" layer="91"/>
+<label x="266.7" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -25328,7 +25323,7 @@ DD33</text>
 <segment>
 <pinref part="DD12" gate="A" pin="!Q"/>
 <wire x1="139.7" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
-<label x="121.92" y="43.18" size="1.778" layer="95"/>
+<label x="116.84" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -25482,31 +25477,44 @@ DD33</text>
 <pinref part="DD34" gate="A" pin="G"/>
 <wire x1="248.92" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="134.62" x2="246.38" y2="127" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="127" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="127" x2="274.32" y2="127" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="127" x2="274.32" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="DD14" gate="A" pin="O"/>
-<wire x1="271.78" y1="101.6" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$70" class="0">
-<segment>
-<pinref part="DD12" gate="B" pin="Q"/>
-<wire x1="116.84" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="76.2" x2="132.08" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="5.08" x2="185.42" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="5.08" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="91.44" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="DD14" gate="A" pin="I1"/>
-<wire x1="238.76" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">
 <segment>
 <pinref part="DD14" gate="A" pin="I0"/>
-<wire x1="251.46" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="104.14" x2="246.38" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="88.9" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="104.14" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="88.9" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SNY" class="0">
+<segment>
+<pinref part="DD29" gate="G$1" pin="SYNC"/>
+<wire x1="241.3" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
+<label x="233.68" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD12" gate="B" pin="D"/>
+<wire x1="91.44" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="73.66" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="127" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!G19A" class="0">
+<segment>
+<pinref part="DD12" gate="B" pin="Q"/>
+<wire x1="116.84" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
+<label x="127" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD14" gate="A" pin="I1"/>
+<wire x1="241.3" y1="99.06" x2="256.54" y2="99.06" width="0.1524" layer="91"/>
+<label x="243.84" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -25515,7 +25523,7 @@ DD33</text>
 <plain>
 </plain>
 <instances>
-<instance part="DD37" gate="A" x="287.02" y="170.18"/>
+<instance part="DD37" gate="A" x="284.48" y="160.02"/>
 <instance part="DD38" gate="A" x="284.48" y="111.76"/>
 <instance part="DD39" gate="A" x="325.12" y="160.02"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -25605,7 +25613,7 @@ DD33</text>
 <instance part="DD36" gate="P" x="220.98" y="25.4"/>
 </instances>
 <busses>
-<bus name="A[0..15],A'[11..15],D[0..7],F[1..2],G[1..19],MA[0..7],MD[0..7],VD[0..11],!RAS,!CAS,CLK,!WE,!WR,X-----X,K[1..27],U7,!,U[6..7],!RESIN,RES,RES80,RD,!RD,B,G,R,B0,G0,R0,SND,VID,LED,P[1..24],R[1..2],CRG,SH,Q3">
+<bus name="A[0..15],A'[11..15],D[0..7],F[1..2],G[1..19],MA[0..7],MD[0..7],VD[0..11],!RAS,!CAS,CLK,!WE,!WR,X-----X,K[1..27],U7,!,U[6..7],!RESIN,RES,RES80,RD,!RD,SNY,B,G,R,B0,G0,R0,SND,VID,LED,P[1..24],R[1..2],CRG,SH,Q3">
 <segment>
 <wire x1="55.88" y1="248.92" x2="10.16" y2="248.92" width="0.762" layer="92"/>
 <wire x1="10.16" y1="248.92" x2="10.16" y2="213.36" width="0.762" layer="92"/>
@@ -26661,7 +26669,7 @@ DD28</text>
 <instance part="DD13" gate="A" x="96.52" y="302.26"/>
 </instances>
 <busses>
-<bus name="A[0..15],A'[11..15],D[0..7],F[1..2],G[1..19],MA[0..7],MD[0..7],VD[0..11],!RAS,!CAS,CLK,!WE,!WR,X-----X,K[1..27],U7,!,U[6..7],!RESIN,RES,RES80,RD,!RD,B,G,R,B0,G0,R0,SND,VID,LED,P[1..24],R[1..2],CRG,SH,Q3">
+<bus name="A[0..15],A'[11..15],D[0..7],F[1..2],G[1..19],MA[0..7],MD[0..7],VD[0..11],!RAS,!CAS,CLK,!WE,!WR,X-----X,K[1..27],U7,!,U[6..7],!RESIN,RES,RES80,RD,!RD,SNY,B,G,R,B0,G0,R0,SND,VID,LED,P[1..24],R[1..2],CRG,SH,Q3">
 <segment>
 <wire x1="193.04" y1="167.64" x2="121.92" y2="167.64" width="0.762" layer="92"/>
 <wire x1="121.92" y1="167.64" x2="121.92" y2="22.86" width="0.762" layer="92"/>
