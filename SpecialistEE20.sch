@@ -23705,6 +23705,7 @@ DA1 КР544УД2</text>
 </instance>
 <instance part="GND41" gate="1" x="187.96" y="132.08" rot="R270"/>
 <instance part="DD14" gate="A" x="264.16" y="101.6"/>
+<instance part="DD7" gate="B" x="203.2" y="81.28"/>
 </instances>
 <busses>
 <bus name="A[0..15],A'[11..15],D[0..7],F[1..2],G[1..19],!G19A,MA[0..7],MD[0..7],VD[0..11],!RAS,!CAS,CLK,!WE,!WR,X-----X,K[1..27],U7,!U[6..7],!RESIN,RES,RES80,RD,!RD,SNY,STRT,B,G,R,B0,G0,R0,SND,VID,LED,P[1..24],R[1..2],CRG,CS,!R,SH,TON,Q3,MOSI,MISO,SCK">
@@ -24198,6 +24199,11 @@ DA1 КР544УД2</text>
 <wire x1="132.08" y1="218.44" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="213.36" x2="121.92" y2="213.36" width="0.1524" layer="91"/>
 <junction x="132.08" y="218.44"/>
+</segment>
+<segment>
+<pinref part="DD7" gate="B" pin="I1"/>
+<wire x1="180.34" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
+<label x="182.88" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G1" class="0">
@@ -25610,6 +25616,11 @@ DA1 КР544УД2</text>
 <wire x1="269.24" y1="114.3" x2="266.7" y2="114.3" width="0.1524" layer="91"/>
 <label x="243.84" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DD7" gate="B" pin="I2"/>
+<wire x1="180.34" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
+<label x="182.88" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$69" class="0">
 <segment>
@@ -25655,6 +25666,20 @@ DA1 КР544УД2</text>
 <pinref part="DD14" gate="A" pin="I1"/>
 <wire x1="241.3" y1="99.06" x2="256.54" y2="99.06" width="0.1524" layer="91"/>
 <label x="243.84" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD7" gate="B" pin="I0"/>
+<wire x1="180.34" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
+<label x="182.88" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!WE" class="0">
+<segment>
+<wire x1="180.34" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="71.12" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="DD7" gate="B" pin="O"/>
+<wire x1="215.9" y1="81.28" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
+<label x="182.88" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
