@@ -3277,14 +3277,6 @@ design rules under a new name.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="RD1" pad="2"/>
 <contactref element="RD2" pad="1"/>
-<contactref element="DD21" pad="8"/>
-<contactref element="DD28" pad="8"/>
-<contactref element="DD27" pad="8"/>
-<contactref element="DD26" pad="8"/>
-<contactref element="DD25" pad="8"/>
-<contactref element="DD24" pad="8"/>
-<contactref element="DD23" pad="8"/>
-<contactref element="DD22" pad="8"/>
 <contactref element="DD102" pad="8"/>
 <contactref element="DD103" pad="8"/>
 <contactref element="DD104" pad="8"/>
@@ -3298,14 +3290,6 @@ design rules under a new name.</description>
 <wire x1="63.5" y1="1.27" x2="49.53" y2="1.27" width="1.9304" layer="16"/>
 <wire x1="49.53" y1="1.27" x2="38.1" y2="1.27" width="1.9304" layer="16"/>
 <wire x1="38.1" y1="1.27" x2="25.4" y2="1.27" width="1.9304" layer="16"/>
-<wire x1="63.5" y1="3.81" x2="63.5" y2="1.27" width="1.4224" layer="16"/>
-<wire x1="76.2" y1="3.81" x2="76.2" y2="1.27" width="1.4224" layer="16"/>
-<wire x1="88.9" y1="3.81" x2="88.9" y2="1.27" width="1.4224" layer="16"/>
-<wire x1="101.6" y1="3.81" x2="101.6" y2="1.27" width="1.4224" layer="16"/>
-<wire x1="114.3" y1="3.81" x2="114.3" y2="1.27" width="1.4224" layer="16"/>
-<wire x1="127" y1="3.81" x2="127" y2="1.27" width="1.4224" layer="16"/>
-<wire x1="139.7" y1="3.81" x2="139.7" y2="1.27" width="1.4224" layer="16"/>
-<wire x1="152.4" y1="1.27" x2="152.4" y2="3.81" width="1.4224" layer="16"/>
 <contactref element="R106" pad="2"/>
 <contactref element="R105" pad="2"/>
 <contactref element="DD213" pad="18"/>
@@ -3364,6 +3348,14 @@ design rules under a new name.</description>
 <contactref element="DD108" pad="20"/>
 <contactref element="DD107" pad="14"/>
 <contactref element="DD112" pad="26"/>
+<contactref element="DD21" pad="8"/>
+<contactref element="DD22" pad="8"/>
+<contactref element="DD23" pad="8"/>
+<contactref element="DD24" pad="8"/>
+<contactref element="DD28" pad="8"/>
+<contactref element="DD27" pad="8"/>
+<contactref element="DD26" pad="8"/>
+<contactref element="DD25" pad="8"/>
 <wire x1="125.6" y1="107.95" x2="124.33" y2="115.57" width="0" layer="19" extent="1-16"/>
 <wire x1="116.84" y1="107.95" x2="125.6" y2="107.95" width="0" layer="19" extent="16-16"/>
 <wire x1="119.38" y1="99.06" x2="116.84" y2="107.95" width="0" layer="19" extent="16-16"/>
@@ -3411,6 +3403,14 @@ design rules under a new name.</description>
 <wire x1="207.33" y1="-5.08" x2="227.33" y2="54.61" width="0" layer="19" extent="16-16"/>
 <wire x1="208.6" y1="-6.35" x2="207.33" y2="-5.08" width="0" layer="19" extent="16-16"/>
 <wire x1="152.4" y1="1.27" x2="207.33" y2="-5.08" width="0" layer="19" extent="16-16"/>
+<wire x1="152.4" y1="3.81" x2="152.4" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="139.7" y1="3.81" x2="139.7" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="127" y1="3.81" x2="127" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="114.3" y1="3.81" x2="114.3" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="101.6" y1="3.81" x2="101.6" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="88.9" y1="3.81" x2="88.9" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="76.2" y1="3.81" x2="76.2" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="63.5" y1="3.81" x2="63.5" y2="1.27" width="0" layer="19" extent="16-16"/>
 <wire x1="274.32" y1="-15.37" x2="208.6" y2="-6.35" width="0" layer="19" extent="16-16"/>
 <wire x1="307.34" y1="17.78" x2="274.32" y2="-15.37" width="0" layer="19" extent="16-16"/>
 <wire x1="-55.75" y1="-29.21" x2="25.4" y2="1.27" width="0" layer="19" extent="1-16"/>
