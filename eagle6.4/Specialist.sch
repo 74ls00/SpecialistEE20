@@ -25324,6 +25324,15 @@ DD39 К573РФ4
 DD113,DD114 ATMega8
 
 DA1 КР544УД2</text>
+<text x="162.56" y="109.22" size="1.778" layer="98" rot="MR180">Панельки
+
+DIP14 15
+DIP16 19
+DIP20 3
+DIP24 (2)
+DIP28 1 (2)
+DIP40 3
+</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
